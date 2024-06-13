@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/library/ubuntu:24.04 docker://junmo1215/ubuntu_test:lastest
+        skopeo copy docker://docker.io/library/ubuntu:24.04 docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/ubuntu_test:lastest
  
