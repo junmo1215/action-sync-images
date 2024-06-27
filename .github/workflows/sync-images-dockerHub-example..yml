@@ -38,7 +38,7 @@ jobs:
         # skopeo copy docker://docker.io/library/mariadb:10.5.5 docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/mariadb:lastest
         # skopeo copy docker://docker.io/kodcloud/kodbox:v1.19 docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/kodbox:lastest
         # skopeo copy docker://docker.io/redis:alpine docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/redis:lastest
-        skopeo copy docker://ollama/ollama:lastest docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/ollama:lastest
+        skopeo copy docker://docker.io/ollama/ollama:lastest docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/ollama:lastest
         skopeo copy docker://ghcr.io/open-webui/open-webui:main docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/open-webui:lastest
         
  
