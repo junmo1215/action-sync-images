@@ -40,5 +40,6 @@ jobs:
         skopeo copy docker://docker.io/redis:alpine docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/redis:latest
         skopeo copy docker://docker.io/ollama/ollama:latest docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/ollama:latest
         skopeo copy docker://ghcr.io/open-webui/open-webui:main docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/open-webui:latest
+        skopeo copy docker://docker.io/library/python:3.10 docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/python:latest
         
  
