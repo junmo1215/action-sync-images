@@ -35,6 +35,7 @@ jobs:
       run: |
         #!/usr/bin/env bash
         skopeo copy docker://docker.io/library/ubuntu:24.04 docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/ubuntu:latest
+        skopeo copy docker://docker.io/library/ubuntu:22.04 docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/ubuntu:22.04
         skopeo copy docker://docker.io/library/ubuntu:20.04 docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/ubuntu:20.04
         skopeo copy docker://docker.io/library/mariadb:10.5.5 docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/mariadb:latest
         skopeo copy docker://docker.io/kodcloud/kodbox:v1.19 docker://registry.cn-shenzhen.aliyuncs.com/junmo1215/kodbox:latest
